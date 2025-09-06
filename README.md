@@ -1,7 +1,8 @@
 # Currency-Detector-for-Visually-Impaired
 Currency Detector for Visually Impaired is a Python-based project that helps identify Indian currency notes using a webcam. It uses ORB feature matching and color histogram verification for accurate detection, and provides audio feedback through text-to-speech, making it accessible and user-friendly.
-💵 Currency Detector for Visually Impaired
-📌 Project Overview
+
+**💵 Currency Detector for Visually Impaired
+📌 Project Overview**
 
 The Currency Detector for Visually Impaired is a Python-based project designed to help visually impaired individuals identify Indian currency notes using a simple webcam and audio guidance.
 
@@ -15,7 +16,7 @@ pyttsx3 for text-to-speech output, so the detected denomination is spoken aloud.
 
 The application is lightweight, works in real-time, and does not require deep learning models or GPUs, making it suitable for everyday use.
 
-🎯 Features
+**🎯 Features**
 
 ✔️ Real-time note detection using webcam
 
@@ -31,7 +32,7 @@ The application is lightweight, works in real-time, and does not require deep le
 
 ✔️ Works offline without internet dependency
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Language: Python 3
 
@@ -45,24 +46,24 @@ NumPy → Array and matrix operations
 
 Matplotlib (optional, for debugging/visualizations)
 
-💻 Installation & Setup
+**💻 Installation & Setup**
 
-Clone the repository
+**Clone the repository**
 
 git clone https://github.com/your-username/currency-detector-visually-impaired.git
 cd currency-detector-visually-impaired
 
 
-Install required dependencies
+**Install required dependencies**
 
 pip install opencv-python pyttsx3 numpy matplotlib
 
 
-Run the project
+**Run the project**
 
 python app.py
 
-📂 Dataset
+**📂 Dataset**
 
 Contains reference images of Indian currency notes (front and back).
 
@@ -70,7 +71,7 @@ Each note has unique features and color profiles used for matching.
 
 Example denominations supported: ₹10, ₹20, ₹50, ₹100, ₹200, ₹500.
 
-📊 Working Process
+**📊 Working Process**
 
 Image Capture → Webcam automatically captures the note after countdown.
 
@@ -82,15 +83,7 @@ Color Matching → Dominant color histogram is compared in HSV color space.
 
 Final Detection → System declares the denomination and announces via voice output.
 
-📸 Screenshots (add these later)
-
-Webcam detection window
-
-Debug output (matches + color differences)
-
-Voice feedback example
-
-🔮 Future Scope
+**🔮 Future Scope**
 
 Add support for all Indian denominations including ₹2000.
 
