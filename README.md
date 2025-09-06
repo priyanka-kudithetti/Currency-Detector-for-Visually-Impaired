@@ -18,11 +18,17 @@ The application is lightweight, works in real-time, and does not require deep le
 🎯 Features
 
 ✔️ Real-time note detection using webcam
+
 ✔️ Automated countdown capture (3…2…1)
+
 ✔️ ORB-based keypoint and descriptor matching
+
 ✔️ Dual verification with color histogram analysis
+
 ✔️ Accurate detection of front and back sides
+
 ✔️ Voice output using text-to-speech for accessibility
+
 ✔️ Works offline without internet dependency
 
 🛠️ Tech Stack
